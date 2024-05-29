@@ -1,0 +1,46 @@
+body {
+    text-align: center; /* Centers the content horizontally */
+    background-color: rgb(192, 192, 192);
+    
+}
+
+.btn {
+    height: 150px; /* Sets the height of the buttons */
+    width: 150px; /* Sets the width of the buttons */
+    margin: 16px; /* Adds spacing around the buttons */
+    border: 10px solid black; /* Adds a black border to the buttons */
+}
+
+.button_container {
+    display: flex; /* Displays the button container as a flex container */
+    justify-content: center; /* Centers the flex items horizontally */
+    border-radius: 50%; /* Makes the button container round */
+}
+
+.red {
+    background-color: Orange; /* Sets the background color of the red button */
+    border-radius: 100% 0 0 0; /* Makes the red button round on the top-left corner */
+}
+
+.green {
+    background-color: Turquoise; /* Sets the background color of the green button */
+    border-radius: 0 0 0 100%; /* Makes the green button round on the top-right corner */
+}
+
+.yellow {
+    background-color: Purple; /* Sets the background color of the yellow button */
+    border-radius: 0 100% 0 0; /* Makes the yellow button round on the bottom-left corner */
+}
+
+.purple {
+    background-color: Pink; /* Sets the background color of the purple button */
+    border-radius: 0 0 100% 0; /* Makes the purple button round on the bottom-right corner */
+}
+
+.flash {
+    background-color: whitesmoke; /* Changes the background color when the flash effect is applied */
+}
+
+.userflash{
+    background-color: Green;
+}
